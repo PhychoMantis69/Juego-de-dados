@@ -1,0 +1,161 @@
+# depslib dependency file v1.0
+1611796452 source:c:\users\lautaron't\downloads\tobias\laboratio 1\laboratorio 1 primer cuatrimestre\juego de dados\dados\main.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<locale.h>
+	"funciones.h"
+
+1611796363 c:\users\lautaron't\downloads\tobias\laboratio 1\laboratorio 1 primer cuatrimestre\juego de dados\dados\funciones.h
+
+1611796427 source:c:\users\lautaron't\downloads\tobias\laboratio 1\laboratorio 1 primer cuatrimestre\juego de dados\dados\funciones.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<locale.h>
+	"funciones.h"
+
+1612195302 source:c:\users\lautaron't\downloads\tobias\laboratio 1\laboratorio 1 primer cuatrimestre\juego de dados\dados (optimizado)\funciones.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<locale.h>
+	"funciones.h"
+	"rlutil.h"
+
+1612187985 c:\users\lautaron't\downloads\tobias\laboratio 1\laboratorio 1 primer cuatrimestre\juego de dados\dados (optimizado)\funciones.h
+
+1612191136 source:c:\users\lautaron't\downloads\tobias\laboratio 1\laboratorio 1 primer cuatrimestre\juego de dados\dados (optimizado)\main.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<locale.h>
+	"funciones.h"
+	"rlutil.h"
+
+1612195406 source:c:\users\lautaron't\downloads\tobias\laboratio 1\laboratorio 1 primer cuatrimestre\juego de dados\dados (optimizado)\un_jugador.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<locale.h>
+	"funciones.h"
+	"rlutil.h"
+
+1612195742 source:c:\users\lautaron't\downloads\tobias\laboratio 1\laboratorio 1 primer cuatrimestre\juego de dados\dados (optimizado)\dos_jugadores.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<locale.h>
+	"funciones.h"
+	"rlutil.h"
+
+1612163791 source:c:\users\lautaron't\downloads\tobias\laboratio 1\laboratorio 1 primer cuatrimestre\juego de dados\dados (optimizado)\mostar_creditos.cpp
+	<iostream>
+	"funciones.h"
+	"rlutil.h"
+
+1612163791 source:c:\users\lautaron't\downloads\tobias\laboratio 1\laboratorio 1 primer cuatrimestre\juego de dados\dados (optimizado)\menu.cpp
+	<iostream>
+	"funciones.h"
+	"rlutil.h"
+
+1612163615 c:\users\lautaron't\downloads\tobias\laboratio 1\laboratorio 1 primer cuatrimestre\juego de dados\dados (optimizado)\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1612187373 source:c:\users\lautaron't\downloads\tobias\laboratio 1\laboratorio 1 primer cuatrimestre\juego de dados\dados (optimizado)\estadisticas.cpp
+	<iostream>
+	"funciones.h"
+
+1612195742 source:c:\users\maxi\desktop\dados (optimizado)\dados (optimizado)\dos_jugadores.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<locale.h>
+	"funciones.h"
+	"rlutil.h"
+
+1612187985 c:\users\maxi\desktop\dados (optimizado)\dados (optimizado)\funciones.h
+
+1612163615 c:\users\maxi\desktop\dados (optimizado)\dados (optimizado)\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1612187373 source:c:\users\maxi\desktop\dados (optimizado)\dados (optimizado)\estadisticas.cpp
+	<iostream>
+	"funciones.h"
+
+1612195964 source:c:\users\maxi\desktop\dados (optimizado)\dados (optimizado)\main.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<locale.h>
+	"funciones.h"
+	"rlutil.h"
+
+1612163791 source:c:\users\maxi\desktop\dados (optimizado)\dados (optimizado)\menu.cpp
+	<iostream>
+	"funciones.h"
+	"rlutil.h"
+
+1612163791 source:c:\users\maxi\desktop\dados (optimizado)\dados (optimizado)\mostar_creditos.cpp
+	<iostream>
+	"funciones.h"
+	"rlutil.h"
+
+1612195406 source:c:\users\maxi\desktop\dados (optimizado)\dados (optimizado)\un_jugador.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<locale.h>
+	"funciones.h"
+	"rlutil.h"
+
+1612906429 source:c:\users\maxi\desktop\dados (optimizado)\dados (optimizado)\funciones.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<locale.h>
+	"funciones.h"
+	"rlutil.h"
+
