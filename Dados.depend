@@ -159,3 +159,73 @@
 	"funciones.h"
 	"rlutil.h"
 
+1666980436 source:c:\users\tobia\onedrive\escritorio\juego de dados\juego-de-dados\dos_jugadores.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<locale.h>
+	"funciones.h"
+	"rlutil.h"
+
+1666980436 c:\users\tobia\onedrive\escritorio\juego de dados\juego-de-dados\funciones.h
+
+1666980436 c:\users\tobia\onedrive\escritorio\juego de dados\juego-de-dados\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1666980436 source:c:\users\tobia\onedrive\escritorio\juego de dados\juego-de-dados\estadisticas.cpp
+	<iostream>
+	"funciones.h"
+
+1666980436 source:c:\users\tobia\onedrive\escritorio\juego de dados\juego-de-dados\funciones.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<locale.h>
+	"funciones.h"
+	"rlutil.h"
+
+1666980436 source:c:\users\tobia\onedrive\escritorio\juego de dados\juego-de-dados\main.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<locale.h>
+	"funciones.h"
+	"rlutil.h"
+
+1666980436 source:c:\users\tobia\onedrive\escritorio\juego de dados\juego-de-dados\menu.cpp
+	<iostream>
+	"funciones.h"
+	"rlutil.h"
+
+1666980436 source:c:\users\tobia\onedrive\escritorio\juego de dados\juego-de-dados\mostar_creditos.cpp
+	<iostream>
+	"funciones.h"
+	"rlutil.h"
+
+1666980436 source:c:\users\tobia\onedrive\escritorio\juego de dados\juego-de-dados\un_jugador.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<locale.h>
+	"funciones.h"
+	"rlutil.h"
+

@@ -1,0 +1,24 @@
+-Reglas del juego:
+
+El juego se divide en 3 rondas, por cada ronda el jugador podra tirar 5 dados, se sumaran todas las caras de los dados que hayan salido
+para acumular un puntaje, al principio de cada ronda se seleccionaran aleatoriamente, 2 dados bloqueadores, estos dados son dados especiales que lo 
+que hacen es bloquear los dados que el jugador va tirando en cada ronda, si por ejemplo al principio de la ronda 1 tocan como dados bloqueadores
+el 2 y 6, y luego de eso el jugador tira los 5 dados, y le llegara a tocar un 2 o un 6 entre los dados, esos dados van a bloquearse, y tendra menos 
+dados para tirar en esa ronda.
+ Al jugador se le ira preguntando por cada tirada si desea seguir tirando en esa ronda o si no desea tirar mas, esto es asi ya que si al jugador 
+se le bloquean todos los dados el puntaje de esa ronda sera 0.
+ El jugador tambien puede elegir si tirar los dados manualmente al principio de la partida 
+
+
+
+-Modo dos jugadores:
+ -Las reglas de este modo son las mismas que en el modo de un solo jugador, con la diferencia de que cada jugador se ira turnando por ronda y el que 
+  consiga mayoe puntaje de entre los dos gana 
+
+
+-Estadisticas:
+Aca se mostrara el puntaje maximo y el nombre del jugador que lo haya hecho
+
+
+-Creditos:
+ -Aca se mostrara el nombre de la compania el nombre de los creadores
