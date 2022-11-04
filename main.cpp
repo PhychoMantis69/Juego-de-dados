@@ -45,6 +45,7 @@ int main()
             //MODO 1 SÓLO JUGADOR
 
         Un_jugador(&t, n, nom, tam);
+        system("cls");
 
 
 
@@ -60,6 +61,8 @@ int main()
         case 3:
 
         estadisticas(&t, &t2, n, n2);
+        //system("pause");
+        system("cls");
 
 
             break;
@@ -68,6 +71,7 @@ int main()
             //Muestra los creditos
 
             mostrar_creditos();
+            system("cls");
 
 
             break;

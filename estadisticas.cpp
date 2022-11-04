@@ -8,6 +8,8 @@ using namespace std;
 
 void estadisticas(int *t, int *t2, char n[], char n2[]){
 
+
+    system("cls");
       if (*t == 0 && *t2 == 0) {
                 cout << "-----------------------------------------------------------------" << endl;
                 cout << "Todavía no hay estadisticas para mostrar" << endl;
@@ -36,7 +38,5 @@ void estadisticas(int *t, int *t2, char n[], char n2[]){
                 }
 
             }
-
-
-
+            system("pause");
 }

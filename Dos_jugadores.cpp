@@ -20,8 +20,8 @@ char pa;
 char manual;
 
 
-
-    cout << "-----------------------------------------------------------------" << endl;
+    system("cls");
+    cout << "-----------------Modo dos jugadores-----------------" << endl;
     cout << "Ingrese nombre del primer jugador, máximo de nombre 20 carácteres " << endl;
     cin.ignore();
     cin.getline(nom, 20);
@@ -41,6 +41,7 @@ char manual;
     cin >> manual;
     cout << endl;
 
+    system("cls");
     for (x = 0; x < 3; x++) {
         int blo1, blo2, blo3, blo4;
         srand(time(0));

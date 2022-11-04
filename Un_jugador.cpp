@@ -19,24 +19,25 @@ void Un_jugador (int *t, char n[], char nom[], int tam){
 
 char pa;
 char manual;
+*t = 0;
 
 
 
  //MODO 1 SÓLO JUGADOR
-
-    cout << "----------------------------------------------------------" << endl;
-    cout << "Ingrese nombre de jugador, máximo de nombre 20 carácteres " << endl;
+    system("cls");
+    cout << "-----------------Modo un jugador-----------------" << endl;
+    cout << "Ingrese el nombre del jugador, máximo de nombre 20 carácteres " << endl;
     cin.ignore();
     cin.getline(nom, 20);
 
-    cout << "---------------------------------------------" << endl;
+    system("cls");
     cout << "¡Bienvenido " << nom << "!" << endl;
     cout << "-----------------------------------------------" << endl;
     strcpy(n, nom);
 
 
         int x;
-
+        ///No tira los dados maualmente
         cout << "¿Desea tirar los dados manualmente en esta partida? (S si o n No) " << endl;
         cin >> manual;
         cout << endl;
@@ -45,11 +46,12 @@ char manual;
                 int blo1, blo2;
                 srand(time(0));
                 cout << "------------------------------------------------" << endl;
-                cout << "RONDA N° " << x + 1 << endl;
                 int ronda = 0;
                 blo1 = ("%i", (rand() % 6) + 1);
                 blo2 = ("%i", (rand() % 6) + 1);
 
+                system("cls");
+                cout << "RONDA N° " << x + 1 << endl;
                 cout << "Los bloqueadores son " << endl;
                 cout << "|" << blo1 << "|" << blo2 << "|" << endl;
                 cout << "-----------------------------------------------------------------------" << endl;
@@ -59,7 +61,16 @@ char manual;
                 const int c = 5;
                 int aux = 5, aux2 = 0, dados[c];
                 while (pa != 'n') {
+                    system("cls");
+
+                    cout << "RONDA N° " << x + 1 << endl;
+                    cout << "Los bloqueadores son " << endl;
+                    cout << "|" << blo1 << "|" << blo2 << "|" << endl;
+
+
                     if (aux == 5) {
+
+
                         int puntos = 0;
                         //Tirada 5 dados
                         tirada(dados, aux, manual);
@@ -67,11 +78,13 @@ char manual;
                         aux2 = bloqueador(dados, c, blo1, blo2, aux2, aux);
 
                         //Acumulador para la ronda
-                       ronda = acumular_puntos(dados, c, ronda, aux);
+                        ronda = acumular_puntos(dados, c, ronda, aux);
 
                         aux = aux - aux2;
 
 
+                        ///aca le puedo poner una funcion
+                        cout << "Puntos actuales: " << ronda << endl;
 
                     }
                     else {
@@ -81,6 +94,10 @@ char manual;
                             aux2 = bloqueador(dados, c, blo1, blo2, aux2, aux);
                             ronda = acumular_puntos(dados, c, ronda, aux);
                             aux = aux - aux2;
+
+
+                            ///aca le puedo poner una funcion
+                            cout << "Puntos actuales: " << ronda << endl;
 
                         }
                         else {
@@ -92,6 +109,10 @@ char manual;
                                 aux = aux - aux2;
 
 
+                                ///aca le puedo poner una funcion
+                            cout << "Puntos actuales: " << ronda << endl;
+
+
                             }
                             else {
                                 if (aux == 2) {
@@ -99,6 +120,10 @@ char manual;
                                     aux2 = bloqueador(dados, c, blo1, blo2, aux2, aux);
                                     ronda = acumular_puntos(dados, c, ronda, aux);
                                     aux = aux - aux2;
+
+
+                                    ///aca le puedo poner una funcion
+                            cout << "Puntos actuales: " << ronda << endl;
 
                                 }
                                 else {
@@ -108,10 +133,18 @@ char manual;
                                         ronda = acumular_puntos(dados, c, ronda, aux);
                                         aux = aux - aux2;
 
+
+                                        ///aca le puedo poner una funcion
+                            cout << "Puntos actuales: " << ronda << endl;
+
                                     }
                                     else {
                                         if (aux == 0) {
                                             ronda = 0;
+
+
+                                            ///aca le puedo poner una funcion
+                            cout << "Puntos actuales: " << ronda << endl;
                                         }
                                     }
                                 }
@@ -134,8 +167,10 @@ char manual;
 
                 cout << "El total de la ronda " << x + 1 << " fue :" << "|" << ronda << "|" << endl;
                 *t += ronda;
+                system("pause");
 
             }
+            system("cls");
             cout << "......................................................................................................." << endl;
             cout << ".....................................GAME OVER ........................................................" << endl;
             cout << "......................................................................................................." << endl;
@@ -143,6 +178,7 @@ char manual;
             cout << "---------------------------------------------------------" << endl;
             cout << "EL PUNTAJE TOTAL DEL USUARIO  " << nom << " EN LAS 3 RONDAS FUE: " << "|" << *t << "|" << endl;
             cout << "---------------------------------------------------------" << endl;
+            system("pause");
 
 
 
