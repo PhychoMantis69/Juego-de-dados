@@ -18,7 +18,7 @@ void estadisticas(int *t, int *t2, char n[], char n2[], int *b, int *PuntajeMaxi
         *PuntajeMaximo = *t;
        // NombreMaximo = n;
     }
-
+    //alo
     if(*t2 > *PuntajeMaximo)
     {
         *PuntajeMaximo = *t2;
