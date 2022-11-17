@@ -255,7 +255,7 @@
 	<sys/types.h>
 	<sys/time.h>
 
-1668714281 source:c:\users\tobias\desktop\juego de dados\juego-de-dados\estadisticas.cpp
+1668720138 source:c:\users\tobias\desktop\juego de dados\juego-de-dados\estadisticas.cpp
 	<iostream>
 	"funciones.h"
 
@@ -269,7 +269,7 @@
 	"funciones.h"
 	"rlutil.h"
 
-1668297904 source:c:\users\tobias\desktop\juego de dados\juego-de-dados\main.cpp
+1668719542 source:c:\users\tobias\desktop\juego de dados\juego-de-dados\main.cpp
 	<iostream>
 	<cstring>
 	<stdio.h>
@@ -279,7 +279,7 @@
 	"funciones.h"
 	"rlutil.h"
 
-1668291699 source:c:\users\tobias\desktop\juego de dados\juego-de-dados\menu.cpp
+1668719839 source:c:\users\tobias\desktop\juego de dados\juego-de-dados\menu.cpp
 	<iostream>
 	"funciones.h"
 	"rlutil.h"

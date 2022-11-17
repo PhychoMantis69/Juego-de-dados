@@ -29,42 +29,44 @@ int main()
 
 
 
-            //Muestra el menu
+    //Muestra el menu
 
-        selec=menu();
+    selec=menu();
 
     int t = 0;
     int t2 = 0;
 
 
-    while (selec != 0) {
+    while (selec != 0)
+    {
 
 
 
-        switch (selec) {
+        switch (selec)
+        {
         case 1:
 
             //MODO 1 SÓLO JUGADOR
 
-        Un_jugador(&t, n, nom, tam);
-        system("cls");
+            Un_jugador(&t, n, nom, tam);
+            system("cls");
 
 
 
 
-    break;
+            break;
 
         case 2:
             //MODO 2 JUGADORES
 
-        Dos_jugadores(n, n2, &t, &t2, tam, nom, nom2);
+            Dos_jugadores(n, n2, &t, &t2, tam, nom, nom2);
 
             break;
         case 3:
 
-        estadisticas(&t, &t2, n, n2, &b, &PuntajeMaximo);
-        //system("pause");
-        system("cls");
+            estadisticas(&t, &t2, n, n2, &b, &PuntajeMaximo);
+            //system("pause");
+            system("cls");
 
 
             break;
@@ -80,7 +82,7 @@ int main()
 
         }
 
-       selec=menu();
+        selec=menu();
     }
 
     return 0;

@@ -9,7 +9,7 @@ int menu (){
 
 int selec;
     cout << endl;
-    cout << "GREED " << endl << endl;
+    cout << "  \t$GREED$ " << endl << endl;
     cout << "------------------------" << endl << endl;
     cout << "1 - MODO UN JUGADOR " << endl << endl;
     cout << "2 - MODO DOS JUGADORES " << endl << endl;;
@@ -17,6 +17,7 @@ int selec;
     cout << "4 - CRÉDITOS " << endl << endl;
     cout << "------------------------" << endl << endl;
     cout << "0 - SALIR " << endl << endl;
+    cout << "OPCION: ";
     cin >> selec;
 
 
