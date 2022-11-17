@@ -23,7 +23,9 @@ int main()
     char n2[tam];
     char nom[tam];
     char n[tam];
+    int b = 0;
     int selec;
+    int PuntajeMaximo = 0;
 
 
 
@@ -60,7 +62,7 @@ int main()
             break;
         case 3:
 
-        estadisticas(&t, &t2, n, n2);
+        estadisticas(&t, &t2, n, n2, &b, &PuntajeMaximo);
         //system("pause");
         system("cls");
 

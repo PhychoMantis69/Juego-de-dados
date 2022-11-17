@@ -18,7 +18,7 @@ void Un_jugador (int*, char[], char[], int);
 void Dos_jugadores(char[], char[], int*, int*, int, char[], char[]);
 
 
-void estadisticas(int*, int*, char[], char[]);
+void estadisticas(int*, int*, char[], char[], int *b, int *PuntajeMaximo);
 
 
 

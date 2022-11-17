@@ -229,3 +229,73 @@
 	"funciones.h"
 	"rlutil.h"
 
+1668717688 source:c:\users\tobias\desktop\juego de dados\juego-de-dados\dos_jugadores.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<locale.h>
+	"funciones.h"
+	"rlutil.h"
+
+1668297955 c:\users\tobias\desktop\juego de dados\juego-de-dados\funciones.h
+
+1668291699 c:\users\tobias\desktop\juego de dados\juego-de-dados\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1668714281 source:c:\users\tobias\desktop\juego de dados\juego-de-dados\estadisticas.cpp
+	<iostream>
+	"funciones.h"
+
+1668291699 source:c:\users\tobias\desktop\juego de dados\juego-de-dados\funciones.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<locale.h>
+	"funciones.h"
+	"rlutil.h"
+
+1668297904 source:c:\users\tobias\desktop\juego de dados\juego-de-dados\main.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<locale.h>
+	"funciones.h"
+	"rlutil.h"
+
+1668291699 source:c:\users\tobias\desktop\juego de dados\juego-de-dados\menu.cpp
+	<iostream>
+	"funciones.h"
+	"rlutil.h"
+
+1668291699 source:c:\users\tobias\desktop\juego de dados\juego-de-dados\mostar_creditos.cpp
+	<iostream>
+	"funciones.h"
+	"rlutil.h"
+
+1668717196 source:c:\users\tobias\desktop\juego de dados\juego-de-dados\un_jugador.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<locale.h>
+	"funciones.h"
+	"rlutil.h"
+
