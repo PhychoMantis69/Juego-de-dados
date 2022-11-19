@@ -284,12 +284,12 @@
 	"funciones.h"
 	"rlutil.h"
 
-1668291699 source:c:\users\tobias\desktop\juego de dados\juego-de-dados\mostar_creditos.cpp
+1668720235 source:c:\users\tobias\desktop\juego de dados\juego-de-dados\mostar_creditos.cpp
 	<iostream>
 	"funciones.h"
 	"rlutil.h"
 
-1668717196 source:c:\users\tobias\desktop\juego de dados\juego-de-dados\un_jugador.cpp
+1668720669 source:c:\users\tobias\desktop\juego de dados\juego-de-dados\un_jugador.cpp
 	<iostream>
 	<cstring>
 	<stdio.h>
